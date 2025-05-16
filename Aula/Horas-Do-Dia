@@ -1,0 +1,27 @@
+//projeto que pergunta as horas do dia.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float horas;
+    printf(" Que Horas Sao ? ");
+    scanf("%f", &horas );
+
+    if ( horas > 5 && horas <= 11 )
+    {
+        printf("Bom Dia!\n " );
+    }
+    else if ( horas >= 12 && horas <= 17 )
+    {
+        printf("Boa Tarde! \n " );
+    }
+    else
+    {
+        printf("Boa Noite!\n " );
+    }
+
+
+    return 0;
+}
